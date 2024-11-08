@@ -8,5 +8,5 @@ const sortedNumbers = [...numbersList];
 sortedNumbers.sort((a, b) => a - b);
 
 // Вывод обоих массивов в консоль
-console.log("Исходный массив:", numbersList);
-console.log("Отсортированный массив:", sortedNumbers);
+console.log('Исходный массив:', numbersList);
+console.log('Отсортированный массив:', sortedNumbers);

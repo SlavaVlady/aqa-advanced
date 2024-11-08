@@ -8,16 +8,15 @@ let zeroCount = 0;
 
 // Цикл для проходу по каждому числу в массиве
 for (let i = 0; i < numbers.length; i++) {
-    if (numbers[i] > 0) {
-        positiveCount++; // если положительное
-    } else if (numbers[i] < 0) {
-        negativeCount++; // если негативное
-    } else {
-        zeroCount++; // если 0
-    }
+  if (numbers[i] > 0) {
+    positiveCount++; // если положительное
+  } else if (numbers[i] < 0) {
+    negativeCount++; // если негативное
+  } else {
+    zeroCount++; // если 0
+  }
 }
 
-
-console.log("Кількість позитивних чисел:", positiveCount);
-console.log("Кількість негативних чисел:", negativeCount);
-console.log("Кількість нульових чисел:", zeroCount);
+console.log('Кількість позитивних чисел:', positiveCount);
+console.log('Кількість негативних чисел:', negativeCount);
+console.log('Кількість нульових чисел:', zeroCount);
